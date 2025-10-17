@@ -1,7 +1,9 @@
 🧩 VERIS ARCHITECTURAL CONCEPT
 
 Version: v0.1
+
 Components: Veris Core / Veris Red / Veris Blue
+
 Purpose: Establish an integrated AI trust, security, and governance framework that operationalises responsible AI through continuous assessment, adversarial testing, and defence monitoring.
 
 ---
