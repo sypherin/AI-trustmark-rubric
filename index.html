@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veris - AI Trust Framework</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>🧩 VERIS</h1>
+                <span class="version">v0.1</span>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="nav-link active" data-section="core">Core Dashboard</a>
+                <a href="#" class="nav-link" data-section="red">Red Testing</a>
+                <a href="#" class="nav-link" data-section="blue">Blue Monitoring</a>
+                <a href="#" class="nav-link" data-section="integration">Integration</a>
+            </div>
+            <div class="nav-user">
+                <span>Admin User</span>
+                <div class="user-avatar">A</div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Veris Core Section -->
+        <section id="core" class="section active">
+            <div class="section-header">
+                <h2>Veris Core - Trustmark Platform</h2>
+                <p>Unified framework for AI system trustworthiness</p>
+            </div>
+            
+            <!-- Trust Score Overview -->
+            <div class="trust-overview">
+                <div class="trust-score-card">
+                    <div class="score-circle">
+                        <div class="score-value">87</div>
+                        <div class="score-label">Trust Score</div>
+                    </div>
+                    <div class="badge-status">
+                        <div class="badge gold">🥇 Gold Badge</div>
+                        <div class="badge-date">Last Updated: Oct 21, 2025</div>
+                    </div>
+                </div>
+                
+                <!-- Three Pillars -->
+                <div class="pillars-grid">
+                    <div class="pillar-card clickable" data-pillar="security">
+                        <div class="pillar-icon">🛡️</div>
+                        <h3>Security & Safety</h3>
+                        <div class="pillar-score">92</div>
+                        <div class="pillar-status good">Excellent</div>
+                    </div>
+                    <div class="pillar-card clickable" data-pillar="compliance">
+                        <div class="pillar-icon">📋</div>
+                        <h3>Compliance & Governance</h3>
+                        <div class="pillar-score">85</div>
+                        <div class="pillar-status good">Good</div>
+                    </div>
+                    <div class="pillar-card clickable" data-pillar="impact">
+                        <div class="pillar-icon">👥</div>
+                        <h3>People & Impact</h3>
+                        <div class="pillar-score">84</div>
+                        <div class="pillar-status good">Good</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Evidence Repository -->
+            <div class="evidence-section">
+                <h3>Evidence Repository</h3>
+                <div class="evidence-grid">
+                    <div class="evidence-item clickable">
+                        <div class="evidence-icon">📄</div>
+                        <div class="evidence-info">
+                            <h4>Security Assessment Report</h4>
+                            <p>Red Team findings from Oct 15, 2025</p>
+                            <span class="evidence-status verified">Verified</span>
+                        </div>
+                    </div>
+                    <div class="evidence-item clickable">
+                        <div class="evidence-icon">📊</div>
+                        <div class="evidence-info">
+                            <h4>Compliance Audit Trail</h4>
+                            <p>ISO 42001 alignment documentation</p>
+                            <span class="evidence-status verified">Verified</span>
+                        </div>
+                    </div>
+                    <div class="evidence-item clickable">
+                        <div class="evidence-icon">🔍</div>
+                        <div class="evidence-info">
+                            <h4>Blue Team Monitoring Logs</h4>
+                            <p>30-day continuous monitoring summary</p>
+                            <span class="evidence-status pending">Processing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Public Trust Portal Preview -->
+            <div class="portal-preview">
+                <h3>Public Trust Portal</h3>
+                <div class="portal-card">
+                    <div class="portal-header">
+                        <h4>AI System: Customer Service Bot v2.1</h4>
+                        <div class="badge gold">🥇 Gold Trustmark</div>
+                    </div>
+                    <div class="portal-content">
+                        <p>This AI system has been verified for trustworthiness across security, compliance, and impact criteria.</p>
+                        <button class="btn-secondary">View Public Badge</button>
+                        <button class="btn-primary">Download Certificate</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Veris Red Section -->
+        <section id="red" class="section">
+            <div class="section-header">
+                <h2>Veris Red - Adversarial Testing</h2>
+                <p>Real-world threat simulation and validation</p>
+            </div>
+
+            <!-- Test Library -->
+            <div class="test-library">
+                <h3>Adversarial Test Library</h3>
+                <div class="test-categories">
+                    <div class="test-category clickable" data-category="injection">
+                        <div class="category-icon">💉</div>
+                        <h4>Prompt Injection</h4>
+                        <div class="test-count">12 tests</div>
+                        <div class="category-status">Ready</div>
+                    </div>
+                    <div class="test-category clickable" data-category="jailbreak">
+                        <div class="category-icon">🔓</div>
+                        <h4>Jailbreaks</h4>
+                        <div class="test-count">8 tests</div>
+                        <div class="category-status">Ready</div>
+                    </div>
+                    <div class="test-category clickable" data-category="exfil">
+                        <div class="category-icon">📤</div>
+                        <h4>Data Exfiltration</h4>
+                        <div class="test-count">6 tests</div>
+                        <div class="category-status">Ready</div>
+                    </div>
+                    <div class="test-category clickable" data-category="hallucination">
+                        <div class="category-icon">🌀</div>
+                        <h4>Hallucination Testing</h4>
+                        <div class="test-count">15 tests</div>
+                        <div class="category-status">Ready</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Test Orchestrator -->
+            <div class="orchestrator-panel">
+                <h3>Test Orchestrator</h3>
+                <div class="orchestrator-controls">
+                    <div class="target-system">
+                        <label>Target System:</label>
+                        <select class="system-select">
+                            <option>Customer Service Bot v2.1</option>
+                            <option>Document Analysis AI</option>
+                            <option>Recommendation Engine</option>
+                        </select>
+                    </div>
+                    <div class="test-scope">
+                        <label>Test Scope:</label>
+                        <div class="scope-options">
+                            <label><input type="checkbox" checked> Prompt Injection</label>
+                            <label><input type="checkbox" checked> Jailbreaks</label>
+                            <label><input type="checkbox"> Data Exfiltration</label>
+                            <label><input type="checkbox" checked> Hallucination</label>
+                        </div>
+                    </div>
+                    <button class="btn-primary run-tests">Run Selected Tests</button>
+                </div>
+            </div>
+
+            <!-- Recent Test Results -->
+            <div class="test-results">
+                <h3>Recent Test Results</h3>
+                <div class="results-table">
+                    <div class="result-row clickable">
+                        <div class="result-date">Oct 20, 2025</div>
+                        <div class="result-type">Prompt Injection Suite</div>
+                        <div class="result-severity high">High</div>
+                        <div class="result-status">2 vulnerabilities found</div>
+                        <button class="btn-secondary">View Report</button>
+                    </div>
+                    <div class="result-row clickable">
+                        <div class="result-date">Oct 18, 2025</div>
+                        <div class="result-type">Jailbreak Testing</div>
+                        <div class="result-severity medium">Medium</div>
+                        <div class="result-status">1 vulnerability found</div>
+                        <button class="btn-secondary">View Report</button>
+                    </div>
+                    <div class="result-row clickable">
+                        <div class="result-date">Oct 15, 2025</div>
+                        <div class="result-type">Full Security Scan</div>
+                        <div class="result-severity low">Low</div>
+                        <div class="result-status">Clean - No issues</div>
+                        <button class="btn-secondary">View Report</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Veris Blue Section -->
+        <section id="blue" class="section">
+            <div class="section-header">
+                <h2>Veris Blue - Defensive Monitoring</h2>
+                <p>Continuous AI security and governance monitoring</p>
+            </div>
+
+            <!-- Monitoring Dashboard -->
+            <div class="monitoring-dashboard">
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-icon">⚡</div>
+                        <div class="metric-value">2.3s</div>
+                        <div class="metric-label">MTTD (Mean Time to Detect)</div>
+                        <div class="metric-trend up">↗ 15% improvement</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon">🔧</div>
+                        <div class="metric-value">4.7m</div>
+                        <div class="metric-label">MTTR (Mean Time to Respond)</div>
+                        <div class="metric-trend down">↘ 8% slower</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon">🎯</div>
+                        <div class="metric-value">127</div>
+                        <div class="metric-label">Threats Blocked (24h)</div>
+                        <div class="metric-trend up">↗ 23% increase</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon">✅</div>
+                        <div class="metric-value">99.7%</div>
+                        <div class="metric-label">System Uptime</div>
+                        <div class="metric-trend stable">→ Stable</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Active Alerts -->
+            <div class="alerts-section">
+                <h3>Active Alerts</h3>
+                <div class="alerts-list">
+                    <div class="alert-item high clickable">
+                        <div class="alert-severity">🔴 High</div>
+                        <div class="alert-info">
+                            <h4>Suspicious Prompt Pattern Detected</h4>
+                            <p>Multiple injection attempts from IP 192.168.1.45</p>
+                            <span class="alert-time">2 minutes ago</span>
+                        </div>
+                        <div class="alert-actions">
+                            <button class="btn-secondary">Investigate</button>
+                            <button class="btn-primary">Block IP</button>
+                        </div>
+                    </div>
+                    <div class="alert-item medium clickable">
+                        <div class="alert-severity">🟡 Medium</div>
+                        <div class="alert-info">
+                            <h4>Unusual API Usage Pattern</h4>
+                            <p>Rate limit approaching for user account: user_12345</p>
+                            <span class="alert-time">15 minutes ago</span>
+                        </div>
+                        <div class="alert-actions">
+                            <button class="btn-secondary">Review</button>
+                            <button class="btn-primary">Throttle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detection Rules -->
+            <div class="detection-rules">
+                <h3>Detection Engine Rules</h3>
+                <div class="rules-grid">
+                    <div class="rule-card active clickable">
+                        <div class="rule-status">🟢 Active</div>
+                        <h4>Prompt Injection Detection</h4>
+                        <p>ML-based detection for injection attempts</p>
+                        <div class="rule-stats">Triggered: 23 times today</div>
+                    </div>
+                    <div class="rule-card active clickable">
+                        <div class="rule-status">🟢 Active</div>
+                        <h4>Data Leakage Prevention</h4>
+                        <p>Pattern matching for sensitive data exposure</p>
+                        <div class="rule-stats">Triggered: 5 times today</div>
+                    </div>
+                    <div class="rule-card inactive clickable">
+                        <div class="rule-status">⚪ Inactive</div>
+                        <h4>Behavioral Drift Detection</h4>
+                        <p>Model output consistency monitoring</p>
+                        <div class="rule-stats">Last triggered: 3 days ago</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Integration Section -->
+        <section id="integration" class="section">
+            <div class="section-header">
+                <h2>System Integration Overview</h2>
+                <p>Data flow and trust score calculation</p>
+            </div>
+
+            <!-- Integration Flow Diagram -->
+            <div class="integration-flow">
+                <div class="flow-diagram">
+                    <div class="flow-node ai-system clickable">
+                        <div class="node-icon">🤖</div>
+                        <h4>AI System</h4>
+                        <p>Customer Service Bot v2.1</p>
+                    </div>
+                    
+                    <div class="flow-arrows">
+                        <div class="arrow evidence">Evidence + Docs</div>
+                        <div class="arrow red-tests">Red Tests</div>
+                        <div class="arrow blue-telemetry">Blue Telemetry</div>
+                    </div>
+                    
+                    <div class="flow-components">
+                        <div class="flow-node veris-core clickable">
+                            <div class="node-icon">🧩</div>
+                            <h4>Veris Core</h4>
+                            <p>Assessment Engine</p>
+                            <div class="node-score">Trust Score: 87</div>
+                        </div>
+                        
+                        <div class="flow-node veris-red clickable">
+                            <div class="node-icon">🔴</div>
+                            <h4>Veris Red</h4>
+                            <p>Adversarial Testing</p>
+                            <div class="node-status">3 tests running</div>
+                        </div>
+                        
+                        <div class="flow-node veris-blue clickable">
+                            <div class="node-icon">🔵</div>
+                            <h4>Veris Blue</h4>
+                            <p>Monitoring</p>
+                            <div class="node-status">2 active alerts</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- API Integration Status -->
+            <div class="api-status">
+                <h3>API Integration Status</h3>
+                <div class="integration-grid">
+                    <div class="integration-card connected clickable">
+                        <div class="integration-icon">📊</div>
+                        <h4>SharePoint</h4>
+                        <div class="integration-status">🟢 Connected</div>
+                        <p>Evidence sync active</p>
+                    </div>
+                    <div class="integration-card connected clickable">
+                        <div class="integration-icon">🏆</div>
+                        <h4>Credly</h4>
+                        <div class="integration-status">🟢 Connected</div>
+                        <p>Badge publishing enabled</p>
+                    </div>
+                    <div class="integration-card pending clickable">
+                        <div class="integration-icon">🏛️</div>
+                        <h4>IMDA Trustmark</h4>
+                        <div class="integration-status">🟡 Pending</div>
+                        <p>Awaiting approval</p>
+                    </div>
+                    <div class="integration-card disconnected clickable">
+                        <div class="integration-icon">📋</div>
+                        <h4>Confluence</h4>
+                        <div class="integration-status">🔴 Disconnected</div>
+                        <p>Configuration required</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for detailed views -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>""
